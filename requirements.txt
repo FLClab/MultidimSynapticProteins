@@ -1,0 +1,7 @@
+numpy
+matplotlib
+scipy
+scikit-learn
+umap-learn
+seaborn
+scikit-image
