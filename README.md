@@ -6,22 +6,10 @@ To facilitate the usage of the `MultidimSynapticProteins` we provide the user wi
 
 # Required packages 
 
-import numpy 
-import os
-import warnings
-import matplotlib 
-import pickle 
-
-from IPython.display import display, HTML
-from scipy import signal
-from scipy.spatial import distance
-from skimage import morphology
-from collections import defaultdict
-
-from umap import UMAP
-
-from matplotlib import pyplot, lines
-from mpl_toolkits.mplot3d import Axes3D
+To facilitate the installation of the packages we creates a `requirements.txt` file containing all necessary packages. The users can validate that they have all required packages using this command
+```bash
+pip install -r requirements.txt --upgrade
+```
 
 # Run example data
 
