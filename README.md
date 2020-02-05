@@ -2,32 +2,30 @@
 
 This repository contains all scripts that were used to generate the results in the paper : _Activity-dependent remodelling of synaptic protein organization revealed by high throughput analysis of STED nanoscopy images_.
 
-To facilitate the usage of the `MultidimSynapticProteins` we provide the user with a `Jupyter Notebook`. We recommend a new user following the steps in at this [link](https://jupyter.readthedocs.io/en/latest/running.html) to run the provided notebook. The notebook, scripts and data used are all provided in the `/src` folder.
+To facilitate the usage of the `MultidimSynapticProteins` we provide the user with a __Jupyter Notebook__. We recommend new users to follow the steps at this [link](https://jupyter.readthedocs.io/en/latest/running.html) to run the provided notebook. Users familiar with a __Jupyter Notebook__ can verify the [required packages](#required-packages) and jump to the [run example data](#run-example) section. The notebook, scripts and data used are all provided in the `/src` folder.
 
+<a id="required-packages"></a>
 # Required packages 
 
-import numpy 
-import os
-import warnings
-import matplotlib 
-import pickle 
+To facilitate the installation of the packages we creates a `requirements.txt` file containing all necessary packages. The users can validate that they have all required packages using this command
+```bash
+pip install -r requirements.txt --upgrade
+```
 
-from IPython.display import display, HTML
-from scipy import signal
-from scipy.spatial import distance
-from skimage import morphology
-from collections import defaultdict
-
-from umap import UMAP
-
-from matplotlib import pyplot, lines
-from mpl_toolkits.mplot3d import Axes3D
-
+<a id="run-example"></a>
 # Run example data
 
-We provide to the user a small amount of data to run the notebook from its own computer. 
+We provide to the user a small amount of data to run the notebook from its own computer. To launch the __Jupyter Notebook__ the users should enter the following command
+```bash
+jupyter notebook
+```
+
+In the _Define constants_ section of the __Jupyter Notebook__ users can modify the parameters of the analysis pipeline. The other sections are self-explanatory and well commented to allow the users to follow the analysis.
 
 # Reference
+
+Please cite this analysis pipeline by using the provided bibtex entry.
+
 ```
 @article{Wiesner2020,
   title={Activity-dependent remodelling of synaptic protein organization revealed by high throughput analysis of STED nanoscopy images},
