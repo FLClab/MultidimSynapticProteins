@@ -26,9 +26,7 @@ In the _Define constants_ section of the __Jupyter Notebook__ users can modify t
 
 Please cite this analysis pipeline by using the provided bibtex entry or citation.
 
-```
-Wiesner T, Bilodeau A, Bernatchez R, Deschênes A, Raulier B, De Koninck P and Lavoie-Cardinal F (2020) Activity-Dependent Remodeling of Synaptic Protein Organization Revealed by High Throughput Analysis of STED Nanoscopy Images. Front. Neural Circuits 14:57. doi: 10.3389/fncir.2020.00057
-```
+> Wiesner T, Bilodeau A, Bernatchez R, Deschênes A, Raulier B, De Koninck P and Lavoie-Cardinal F (2020) Activity-Dependent Remodeling of Synaptic Protein Organization Revealed by High Throughput Analysis of STED Nanoscopy Images. Front. Neural Circuits 14:57. doi: 10.3389/fncir.2020.00057
 
 ```
 @article{Wiesner2020,
